@@ -12,7 +12,6 @@ import com.example.android.architecture.blueprints.todoapp.data.source.remote.Ta
 object ServiceLocator {
 
     private var database: ToDoDatabase? = null
-
     @Volatile
     var tasksRepository: TasksRepository? = null
 
